@@ -9,11 +9,24 @@
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <style type="text/css">
-.blue{ background-color:#0850EB}
-.green{ background-color:#1ED363}
-.red{ background-color:#ED0A0E}
-.orange{ background-color:#EF7208}
-.yellow{ background-color:#E5E30B}
+.blue {
+	background-color: #0850EB
+}
+.green {
+	background-color: #1ED363
+}
+.red {
+	background-color: #ED0A0E
+}
+.orange {
+	background-color: #EF7208
+}
+.yellow {
+	background-color: #E5E30B
+}
+.gray {
+	background-color: #ccc
+}
 </style>
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -24,30 +37,36 @@
     <![endif]-->
 </head>
 <body>
-<div class="container">
+<div class="container"> 
 	<!--hero-->
 	<section class="row">
-		<div class="col-xs-6 col-md-4 red">.col-xs-6 .col-md-4</div>
-		<div class="col-xs-12 col-sm-6 col-md-8 green">.col-xs-12 .col-sm-6 .col-md-8</div>
-	</section>
-	<section class="row">
-		<div class="col-xs-12 col-sm-12 col-md-12 blue">.col-xs-12 .col-sm-6 .col-md-8
-			<div class="row">
-				<div class="col-xs-8 col-sm-8 col-md-6 yellow">
-					Level 2: .col-xs-8 .col-sm-6
-				</div>	
-				<div class="col-xs-8 col-sm-8 col-md-3 orange">
-					Level 2: .col-xs-8 .col-sm-6
-				</div>			
+		<div class=" col-sm-4 col-md-3 red">md4</div>
+		<div class=" col-sm-8 col-md-9 green">md9
+			<div class="row gray">
+				<div class="col-xs-4 col-sm-4 col-md-3 col-md-offset-3 blue">md3</div>
+				<div class="col-xs-4 col-sm-4 col-md-3 yellow">md3</div>
+				<div class="col-xs-4 col-sm-4 col-md-3 red">md3</div>
 			</div>
 		</div>
-	</section>	
-	<!--copy-->
-	<section class="row"></section>
+	</section>
+	<section class="row">
+		<div class="col-md-12 gray">
+			<div class="row">
+				<div class="col-xs-7 col-sm-7 col-md-5 green">md5</div>
+				<div class="col-xs-5 col-sm-5 col-md-3 orange">md3</div>
+				<div class="clearfix"></div>
+				<div class="col-md-12 red">md12</div>
+			</div>
+		</div>
+	</section>
 	<!--estates-->
-	<section class="row"></section>
+	<section class="row">
+		<div class="col-sm-6 col-md-3 yellow">md3</div>
+		<div class="col-sm-6 col-md-3 blue">md3</div>
+		<div class="col-sm-6 col-md-3 orange">md3</div>
+		<div class="col-sm-6 col-md-3 green">md3</div>
+	</section>
 </div>
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
