@@ -24,7 +24,16 @@ $brown:#2a2316;
 }
 .headline{
 	background-color:$gold;
+	.lux-img{
+		left: 320px;
+    position: absolute;
+    top: -45px;
+	}
 }
 .alt-c,.pac-c,.coa-c,.emp-c{
 	text-align:center;
+}
+.homesites{
+	text-align:center;
+ .col-md-6{ padding:0;}
 }

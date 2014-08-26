@@ -20,6 +20,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/alt-pac.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51297,
+		"inputAbbreviatedPath": "\/img\/alt-pac.jpg",
+		"outputAbbreviatedPath": "\/img\/alt-pac.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/atl-collec.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -27,6 +38,50 @@
 		"initialSize": 198953,
 		"inputAbbreviatedPath": "\/img\/atl-collec.png",
 		"outputAbbreviatedPath": "\/img\/atl-collec.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/atl-pac.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51222,
+		"inputAbbreviatedPath": "\/img\/atl-pac.jpg",
+		"outputAbbreviatedPath": "\/img\/atl-pac.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/atl-pac.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 303989,
+		"inputAbbreviatedPath": "\/img\/atl-pac.png",
+		"outputAbbreviatedPath": "\/img\/atl-pac.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coa-emp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44813,
+		"inputAbbreviatedPath": "\/img\/coa-emp.jpg",
+		"outputAbbreviatedPath": "\/img\/coa-emp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coa-emp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/coa-emp.png",
+		"outputAbbreviatedPath": "\/img\/coa-emp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -75,6 +130,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/photos_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2786,
+		"inputAbbreviatedPath": "\/img\/photos_01.png",
+		"outputAbbreviatedPath": "\/img\/photos_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/photos_04.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2524,
+		"inputAbbreviatedPath": "\/img\/photos_04.png",
+		"outputAbbreviatedPath": "\/img\/photos_04.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/seven-bridges-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -105,6 +182,50 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/PSD\/photos-assets\/atl-collec.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195517,
+		"inputAbbreviatedPath": "\/PSD\/photos-assets\/atl-collec.png",
+		"outputAbbreviatedPath": "\/PSD\/photos-assets\/atl-collec.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/PSD\/photos-assets\/coas-collec.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166797,
+		"inputAbbreviatedPath": "\/PSD\/photos-assets\/coas-collec.png",
+		"outputAbbreviatedPath": "\/PSD\/photos-assets\/coas-collec.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/PSD\/photos-assets\/emp-collec.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137732,
+		"inputAbbreviatedPath": "\/PSD\/photos-assets\/emp-collec.png",
+		"outputAbbreviatedPath": "\/PSD\/photos-assets\/emp-collec.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/PSD\/photos-assets\/pac-collec.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173543,
+		"inputAbbreviatedPath": "\/PSD\/photos-assets\/pac-collec.png",
+		"outputAbbreviatedPath": "\/PSD\/photos-assets\/pac-collec.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/sass\/seven-briges.scss": {
 		"createSourceMap": 0,
