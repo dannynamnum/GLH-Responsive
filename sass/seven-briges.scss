@@ -3,6 +3,7 @@
 $gold:#d4ab43;
 $brown:#2a2316;
 .container{
+	max-width:965px;
 	background-color:$brown;
 	color:#fff;
 	font-family: 'Open Sans', sans-serif;
@@ -23,4 +24,7 @@ $brown:#2a2316;
 }
 .headline{
 	background-color:$gold;
+}
+.alt-c,.pac-c,.coa-c,.emp-c{
+	text-align:center;
 }
