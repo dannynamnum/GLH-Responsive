@@ -3,31 +3,64 @@
 $gold:#d4ab43;
 $brown:#2a2316;
 .container{
+	padding-top:24px;
 	max-width:965px;
 	background-color:$brown;
 	color:#fff;
 	font-family: 'Open Sans', sans-serif;
+	.menu{
+		margin-top:24px;
+		text-align:right;
+		a{
+			color:#fff;
+			border-right:solid 1px #fff;
+			padding-right:16px;
+			padding-left:16px;
+		}
+		a:last-of-type{
+			border-right:none;
+		}
+	}
 	h1{
 		text-transform:uppercase;
 		color:$brown;
-		span{
-			font-family: 'Tangerine', cursive; 
-			text-transform:none;
-			font-size:86px;
-			color:#fff;
-		}
+		font-size:42px;
+		margin:0;
+		padding:0;
+		letter-spacing:2px;
+		text-align:center;
 	}
 	h2{
 		color:$gold;
 		text-align:center;
+		font-size:32px;
 	}
+	h3 a{
+		z-index:100;
+		text-transform:uppercase;
+		position:relative;
+		font-size:20px;
+		color:$gold;
+		font-weight:600;
+	}
+	h3 a:after{content:  "►";}
+	.content{ margin-top:24px; font-size:16px; line-height:1.5em; text-align:center; padding-left:24px; padding-right:24px;}
 }
 .headline{
-	background-color:$gold;
-	.lux-img{
-		left: 320px;
-    position: absolute;
-    top: -45px;
+	margin-top:48px;
+	background-image:url(../img/headline-bg.jpg);
+	background-repeat:repeat-x;
+	padding-left:24px;
+}
+@media only screen and (min-width: 769px){
+	.container{
+		h1{ text-align:left;}
+		.lux-img{
+			position: absolute;
+			margin-top:-100px;
+			left:400px;
+		}
+	.content{ margin-top:74px;}
 	}
 }
 .alt-c,.pac-c,.coa-c,.emp-c{
@@ -36,4 +69,23 @@ $brown:#2a2316;
 .homesites{
 	text-align:center;
  .col-md-6{ padding:0;}
+ img{ position:relative; top:-68px; z-index:10;}
+ .details{
+	 position:relative;
+	 margin-top:-50px;
+	 padding-bottom:48px;
+		a{
+			padding-bottom:.5em;
+			padding-top:.5em;
+			padding-right:2em;
+			padding-left:2em;
+			margin-top:16px;
+			display:inline-block;
+			background-color:$gold;
+			color:#fff;
+			text-transform:uppercase;
+			font-weight:700;
+		}
+		a:hover{ background-color:saturate($gold,20); text-decoration:none;}
+	}
 }
