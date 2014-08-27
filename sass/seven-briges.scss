@@ -8,6 +8,7 @@ $brown:#2a2316;
 	background-color:$brown;
 	color:#fff;
 	font-family: 'Open Sans', sans-serif;
+	a{ text-decoration:none;}
 	.menu{
 		margin-top:24px;
 		text-align:right;
@@ -88,4 +89,23 @@ $brown:#2a2316;
 		}
 		a:hover{ background-color:saturate($gold,20); text-decoration:none;}
 	}
+}
+/*iphone only*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	h1{ font-size:2em !important;}
+	h2{ font-size:1.5em !important;}
+	h3 a{
+		font-size:.65em !important; 
+		text-decoration:none !important;
+		padding-bottom:0px !important;
+		line-height:2px !important;
+	}
+	.menu a{ font-size:.5em !important;}
+	.content{ padding-left:5px !important; padding-right:5px !important;}
+	.homesites{
+		img{ top:-55px !important;}
+	}
+	.details{ font-size:.75em !important;}
 }
